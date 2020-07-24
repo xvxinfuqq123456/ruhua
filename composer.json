@@ -1,0 +1,24 @@
+{
+    "name": "ruhua/flower",
+    "description": "ruhua",
+    "type": "library",
+    "require": {
+        "ruhua": "1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xxf",
+            "email": "2421912566@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4": {
+            "ruhua": "ruhua/"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    }
+}
