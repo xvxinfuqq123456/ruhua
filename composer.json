@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload":{
         "psr-4": {
-            "ruhua": "ruhua/"
+            "bases": "ruhua/bases"
         },
         "psr-0": {
             "": "extend/"
