@@ -1,3 +1,2 @@
 # ruhua
-安装方法
-composer create ruhua/flower
+如花系统开源框架
