@@ -25,7 +25,23 @@
             "Job1\\": "ruhua/Job",
             "traits\\": "ruhua/traits",
             "utils\\": "ruhua/utils"
+        },
+        "psr-0": {
+            "": "extend/"
         }
 
+    },
+    "extra":
+    {
+        "branch-alias":
+        {
+            "dev-master": "1.0.x-dev"
+        },
+        "installer-types": ["ank-asset"],
+        "installer-paths":
+        {
+            "":["ank-asset"],
+            "{$name}/": ["type:ank-asset"]
+        }
     }
 }
