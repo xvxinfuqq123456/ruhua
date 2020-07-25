@@ -14,20 +14,7 @@
         }
     ],
     "minimum-stability": "dev",
-   /* "autoload":{
-        "psr-4": {
-            "bases\\": "ruhua/bases",
-            "enum\\": "ruhua/enum",
-            "events\\": "ruhua/events",
-            "exceptions\\": "ruhua/exceptions",
-            "interfaces\\": "ruhua/interfaces",
-            "services\\": "ruhua/services",
-            "subscribes\\": "ruhua/subscribes",
-            "Job1\\": "ruhua/Job",
-            "traits\\": "ruhua/traits",
-            "utils\\": "ruhua/utils"
-        }
-    },*/
+   
     "extra":
     {
         "branch-alias":
