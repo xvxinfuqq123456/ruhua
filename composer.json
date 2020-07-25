@@ -1,7 +1,7 @@
 {
-    "name": "flower/ruhua",
+    "name": "ruhuaEngin/ruhua",
     "description": "project",
-    "type": "flower",
+    "type": "ruhua",
     "require": {
         "php": ">=5.6.0"
     },
