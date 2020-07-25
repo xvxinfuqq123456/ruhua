@@ -9,24 +9,5 @@
             "email": "2421912566@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "app\\": "app",
-            "Symfony\\": "vendor/symfony",
-            "think\\": "vendor/roprhink",
-            "Opis\\": "vendor/opis",
-            "Psr\\": "vendor/psr"
-        },
-        "psr-0": {
-            "": "extend/"
-        }
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "require": {
-        "php": ">=7.0.0"
-
-    }
+    "minimum-stability": "dev"
 }
