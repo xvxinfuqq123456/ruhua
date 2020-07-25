@@ -4,90 +4,157 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit56e955a4eb1188045edd8dc92b18cbf3
+class ComposerStaticInit15aacd0da02b89bddea799269bee67e0
 {
+    public static $files = array (
+        '9b552a3cc426e3287cc811caefa3cf53' => __DIR__ . '/..' . '/topthink/think-helper/src/helper.php',
+        '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        '1cfd2761b63b0a29ed23657ea394cb2d' => __DIR__ . '/..' . '/topthink/think-captcha/src/helper.php',
+        'cc56288302d9df745d97c934d6a6e5f0' => __DIR__ . '/..' . '/topthink/think-queue/src/common.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
-        'u' => 
-        array (
-            'utils\\' => 6,
-        ),
         't' => 
         array (
-            'traits\\' => 7,
+            'think\\view\\driver\\' => 18,
+            'think\\trace\\' => 12,
+            'think\\captcha\\' => 14,
+            'think\\' => 6,
         ),
-        's' => 
+        'a' => 
         array (
-            'subscribes\\' => 11,
-            'services\\' => 9,
+            'app\\' => 4,
         ),
-        'i' => 
+        'S' => 
         array (
-            'interfaces\\' => 11,
+            'Symfony\\Polyfill\\Php72\\' => 23,
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Contracts\\Translation\\' => 30,
+            'Symfony\\Component\\VarDumper\\' => 28,
+            'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\Process\\' => 26,
         ),
-        'e' => 
+        'P' => 
         array (
-            'exceptions\\' => 11,
-            'events\\' => 7,
-            'enum\\' => 5,
+            'Psr\\SimpleCache\\' => 16,
+            'Psr\\Log\\' => 8,
+            'Psr\\Container\\' => 14,
+            'Psr\\Cache\\' => 10,
         ),
-        'b' => 
+        'O' => 
         array (
-            'bases\\' => 6,
+            'Opis\\Closure\\' => 13,
         ),
-        'J' => 
+        'L' => 
         array (
-            'Job1\\' => 5,
+            'League\\Flysystem\\Cached\\' => 24,
+            'League\\Flysystem\\' => 17,
+        ),
+        'C' => 
+        array (
+            'Carbon\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'utils\\' => 
+        'think\\view\\driver\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/ruhua/utils',
+            0 => __DIR__ . '/..' . '/topthink/think-view/src',
         ),
-        'traits\\' => 
+        'think\\trace\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/ruhua/traits',
+            0 => __DIR__ . '/..' . '/topthink/think-trace/src',
         ),
-        'subscribes\\' => 
+        'think\\captcha\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/ruhua/subscribes',
+            0 => __DIR__ . '/..' . '/topthink/think-captcha/src',
         ),
-        'services\\' => 
+        'think\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/ruhua/services',
+            0 => __DIR__ . '/..' . '/topthink/framework/src/think',
+            1 => __DIR__ . '/..' . '/topthink/think-factory/src',
+            2 => __DIR__ . '/..' . '/topthink/think-helper/src',
+            3 => __DIR__ . '/..' . '/topthink/think-image/src',
+            4 => __DIR__ . '/..' . '/topthink/think-orm/src',
+            5 => __DIR__ . '/..' . '/topthink/think-queue/src',
+            6 => __DIR__ . '/..' . '/topthink/think-template/src',
         ),
-        'interfaces\\' => 
+        'app\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/ruhua/interfaces',
+            0 => __DIR__ . '/../..' . '/app',
         ),
-        'exceptions\\' => 
+        'Symfony\\Polyfill\\Php72\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/ruhua/exceptions',
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php72',
         ),
-        'events\\' => 
+        'Symfony\\Polyfill\\Mbstring\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/ruhua/events',
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'enum\\' => 
+        'Symfony\\Contracts\\Translation\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/ruhua/enum',
+            0 => __DIR__ . '/..' . '/symfony/translation-contracts',
         ),
-        'bases\\' => 
+        'Symfony\\Component\\VarDumper\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/ruhua/bases',
+            0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
-        'Job1\\' => 
+        'Symfony\\Component\\Translation\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/ruhua/Job',
+            0 => __DIR__ . '/..' . '/symfony/translation',
         ),
+        'Symfony\\Component\\Process\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/process',
+        ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Psr\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'Opis\\Closure\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/opis/closure/src',
+        ),
+        'League\\Flysystem\\Cached\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/flysystem-cached-adapter/src',
+        ),
+        'League\\Flysystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/flysystem/src',
+        ),
+        'Carbon\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+    );
+
+    public static $fallbackDirsPsr0 = array (
+        0 => __DIR__ . '/../..' . '/extend',
+        1 => __DIR__ . '/../..' . '/ruhua',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit56e955a4eb1188045edd8dc92b18cbf3::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit56e955a4eb1188045edd8dc92b18cbf3::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit15aacd0da02b89bddea799269bee67e0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit15aacd0da02b89bddea799269bee67e0::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr0 = ComposerStaticInit15aacd0da02b89bddea799269bee67e0::$fallbackDirsPsr0;
 
         }, null, ClassLoader::class);
     }
