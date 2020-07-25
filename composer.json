@@ -12,18 +12,21 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "app\\": "app"
+            "app\\": "app",
+            "Symfony\\": "vendor/symfony",
+            "think\\": "vendor/roprhink",
+            "Opis\\": "vendor/opis",
+            "Psr\\": "vendor/psr"
         },
         "psr-0": {
-            "": "extend/",
-            "": "vendor/"
+            "": "extend/"
         }
     },
     "config": {
         "preferred-install": "dist"
     },
     "require": {
-        "php": ">=7.0.0",
+        "php": ">=7.0.0"
 
     }
 }
