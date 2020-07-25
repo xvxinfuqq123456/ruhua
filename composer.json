@@ -1,0 +1,14 @@
+{
+    "name": "qy/ruhua",
+    "description": "ruhua",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xxf",
+            "email": "2421912566@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
