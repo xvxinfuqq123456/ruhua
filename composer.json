@@ -15,7 +15,8 @@
             "app\\": "app"
         },
         "psr-0": {
-            "": "extend/"
+            "": "extend/",
+            "": "vendor/"
         }
     },
     "config": {
