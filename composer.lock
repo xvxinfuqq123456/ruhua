@@ -125,7 +125,8 @@
                 "phpspec/phpspec": "^3.4",
                 "phpunit/phpunit": "^5.7",
                 "predis/predis": "~1.0",
-                "tedivm/stash": "~0.12"
+                "tedivm/stash": "~0.12",
+                 "qy/ruhua-engine":"v1.02"
             },
             "suggest": {
                 "ext-phpredis": "Pure C implemented extension for PHP"
