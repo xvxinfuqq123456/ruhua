@@ -14,7 +14,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "autoload":{
+   /* "autoload":{
         "psr-4": {
             "bases\\": "ruhua/bases",
             "enum\\": "ruhua/enum",
@@ -26,12 +26,8 @@
             "Job1\\": "ruhua/Job",
             "traits\\": "ruhua/traits",
             "utils\\": "ruhua/utils"
-        },
-        "psr-0": {
-            "": "extend/"
         }
-
-    },
+    },*/
     "extra":
     {
         "branch-alias":
@@ -41,7 +37,8 @@
         "installer-types": ["flower"],
         "installer-paths":
         {
-            "/":["ruhua"]
+            "":["ruhua"],
+            "{$name}/": ["type:flower"]
         }
     }
 }
