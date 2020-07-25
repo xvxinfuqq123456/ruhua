@@ -12,16 +12,8 @@
 // [ 应用入口文件 ]
 namespace think;
 
-
-
 require __DIR__ . '/../vendor/autoload.php';
 
-// 定义程序当前版本号
-define('VAE_VERSION','1.0.2');
-
-// 定义vaeThink项目目录
-define('VAE_ROOT', __DIR__ . '/../');
-define('ROOT', __DIR__);
 // 执行HTTP应用并响应
 $http = (new App())->http;
 

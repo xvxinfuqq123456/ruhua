@@ -1,8 +1,5 @@
-/unpackage
-
-*.log
- 
-.travis.yml
-LICENSE.txt
-
 /.idea
+/.vscode
+/vendor
+*.log
+.env

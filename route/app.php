@@ -10,10 +10,8 @@
 // +----------------------------------------------------------------------
 use think\facade\Route;
 
-Route::get('', function () {
-    echo '如花系统'.VAE_VERSION.'(开发板)';
+Route::get('think', function () {
+    return 'hello,ThinkPHP6!';
 });
 
-Route::group('', function () {
-    Route::get('index', 'index.index/index');//测试接口
-});
+Route::get('hello/:name', 'index/hello');
