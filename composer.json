@@ -29,5 +29,21 @@
     "require-dev": {
         "symfony/var-dumper": "^4.2",
         "topthink/think-trace":"^1.0"
-    }
+    },
+    "repositories": [
+        // 将包源换成阿里云的, 速度快一些
+        {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        },
+        // 禁用官方请求, 否则慢的要死, 甚至超时
+        {
+            "packagist": false
+        },
+        // 将自己的项目 git 连接放进来
+        {
+            "type": "git",
+            "url": "https://github.com/xvxinfuqq123456/ruhua-engine.git"
+        }
+    ]
 }
