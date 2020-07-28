@@ -26,7 +26,7 @@
         "php": ">=7.0.0",
         "topthink/framework": "^6.0.0",
         "topthink/think-orm": "^2.0",
-        "qy/ruhua-engine":"v1.03"
+        "qy/ruhua-engine":"v1.04"
 
     },
     "require-dev": {
