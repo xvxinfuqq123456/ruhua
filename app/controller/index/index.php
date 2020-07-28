@@ -8,13 +8,18 @@
  */
 namespace app\controller\index;
 
-use bases\BaseController;
+
+use ruhua\bases\BaseController;
+
+
+
 
 class index extends BaseController
 {
     public function index()
     {
-        return "欢迎使用";
+        $data=['msg'=>'欢迎使用如花系统开源版'];
+        return app('json')->go($data);
     }
 
 }

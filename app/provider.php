@@ -1,6 +1,6 @@
 <?php
 //use app\ExceptionHandle;
-use exceptions\ExceptionHandle;
+use ruhua\exceptions\ExceptionHandle;
 use app\Request;
 
 // 容器Provider定义文件

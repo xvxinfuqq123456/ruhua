@@ -2,8 +2,8 @@
 
 namespace app;
 
-use utils\System;
-use utils\Json;
+use ruhua\utils\System;
+use ruhua\utils\Json;
 use think\Service;
 
 class ApiService extends Service
